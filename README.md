@@ -1,0 +1,1 @@
+Gathers words from [Duden](https://www.duden.de).
