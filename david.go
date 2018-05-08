@@ -127,7 +127,7 @@ func main() {
                 }
                 response.Body.Close()
 
-                todo:=make([]string, 20)
+                todo:=make([]string, 0, 20)
                 found:=r.FindAllSubmatch(content, -1)
                 for _,found:=range found{
                     todo=append(todo, string(found[1]))
